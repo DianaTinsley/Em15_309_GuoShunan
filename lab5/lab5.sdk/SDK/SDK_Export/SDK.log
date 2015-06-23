@@ -1,0 +1,225 @@
+13:16:37.440 INFO  - Processing command line option -hwspec C:/xup/embedded/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+13:23:13.086 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:23:13.195 INFO  - PS initialization will be done as it is not done before. 
+13:23:13.195 INFO  - Running PS initialization.... 
+13:23:13.507 INFO  - ps7_init is completed. 
+13:23:13.617 INFO  - PS Initialization is complete. 
+13:25:51.725 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+07:35:54.492 INFO  - Processing command line option -hwspec C:/xup/embedded/labs/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+07:35:54.738 INFO  - The hardware specification for project 'hw_platform_0' is different from C:/xup/embedded/labs/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+07:35:54.776 INFO  - Copied contents of C:/xup/embedded/labs/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+07:35:54.792 INFO  - Copied contents of C:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system.bit. 
+07:35:54.990 INFO  - Copied contents of C:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+07:35:55.004 INFO  - Copied contents of C:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+07:35:55.053 INFO  - Copied contents of C:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+07:35:55.055 INFO  - Copied contents of C:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+07:35:55.068 INFO  - Copied contents of C:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+07:35:55.262 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+07:35:56.677 INFO  - Updating MSS for Board Support Package Project: mem_test_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: btns_4bit, driver: gpio_v3_01_a.
+			Peripheral Instance: sw_4bit, driver: gpio_v3_01_a.
+ 
+07:36:21.342 INFO  - Updating hardware inferred compiler options for mem_test. 
+07:36:21.347 INFO  - Clearing existing target manager status. 
+07:36:23.720 INFO  - Closing and re-opening the MSS file of ther project mem_test_bsp 
+07:36:25.491 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+07:54:26.039 INFO  - FPGA configured successfully with bitstream "C:/xup/embedded/labs/lab2/lab2.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+07:54:55.017 INFO  - Processor reset is completed for ps7_cortexa9_0 
+07:54:55.117 INFO  - PS initialization will be done as it is not done before. 
+07:54:55.117 INFO  - Running PS initialization.... 
+07:54:55.275 INFO  - ps7_init is completed. 
+07:54:55.375 INFO  - ps7_post_config is completed. 
+07:54:55.475 INFO  - PS Initialization is complete. 
+08:04:35.543 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+13:23:25.021 INFO  - Processing command line option -hwspec D:/xup/embedded/labs/lab4/lab4.sdk/SDK/SDK_Export/hw/system.xml. 
+13:23:27.751 INFO  - The hardware specification for project 'hw_platform_0' is different from D:/xup/embedded/labs/lab4/lab4.sdk/SDK/SDK_Export/hw/system.xml. 
+13:23:27.829 INFO  - Copied contents of D:/xup/embedded/labs/lab4/lab4.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+13:23:27.860 INFO  - Copied contents of D:\xup\embedded\labs\lab4\lab4.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+13:23:27.860 INFO  - Copied contents of D:\xup\embedded\labs\lab4\lab4.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm into \hw_platform_0\system_bd.bmm. 
+13:23:31.307 INFO  - Copied contents of D:\xup\embedded\labs\lab4\lab4.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+13:23:31.307 INFO  - Copied contents of D:\xup\embedded\labs\lab4\lab4.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+13:23:31.323 INFO  - Copied contents of D:\xup\embedded\labs\lab4\lab4.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+13:23:31.323 INFO  - Copied contents of D:\xup\embedded\labs\lab4\lab4.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+13:23:31.323 INFO  - Copied contents of D:\xup\embedded\labs\lab4\lab4.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+13:23:31.744 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+13:23:35.161 INFO  - Updating MSS for Board Support Package Project: standalone_bsp_0.
+		 The following new driver assignments were made:
+			Peripheral Instance: axi_bram_ctrl_0, driver: bram_v3_03_a.
+			Peripheral Instance: led_ip, driver: generic_v1_00_a.
+ 
+13:23:35.348 ERROR - Exception while attemping to 'diff' files D:\xup\embedded\labs\lab4\lab4.sdk\SDK\SDK_Export\hw_platform_0\system_wrapper_bd.bmm and D:\xup\embedded\labs\lab4\lab4.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm. 
+13:23:35.348 INFO  - Updating .bit and .bmm files from XPS's export folder. 
+13:23:35.972 INFO  - Updating hardware inferred compiler options for TestApp. 
+13:24:11.821 INFO  - Copied contents of D:\xup\embedded\labs\lab4\lab4.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit. 
+13:24:11.821 INFO  - Copied contents of D:\xup\embedded\labs\lab4\lab4.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm into \hw_platform_0\system_wrapper_bd.bmm. 
+13:24:11.821 INFO  - Clearing existing target manager status. 
+13:24:17.516 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/mem_test' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:521)
+
+13:24:17.516 ERROR - Unexpected error while obtaining referenced S/W project {} org.eclipse.core.internal.resources.ResourceException: Resource '/mem_test_bsp' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Project.getReferencedProjects(Project.java:521)
+
+13:32:59.905 INFO  - Saving repository preferences. 
+13:32:59.920 INFO  - Reading in cores from local repositories: 
+		 D:\xup\embedded\labs\led_ip\led_ip_1.0 
+13:32:59.936 INFO  - Updating libgen.options on all BSP projects. 
+13:32:59.951 INFO  - Cleaning BSP projects in the workspace. 
+13:33:49.934 INFO  - Settings changed on project standalone_bsp_0. Triggering a rebuild... 
+13:33:50.761 INFO  - Refreshed build settings on project lab4 
+13:40:41.773 INFO  - FPGA configured successfully with bitstream "D:/xup/embedded/labs/lab4/lab4.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+13:41:15.126 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:41:15.235 INFO  - PS initialization will be done as it is not done before. 
+13:41:15.235 INFO  - Running PS initialization.... 
+13:41:15.641 INFO  - ps7_init is completed. 
+13:41:15.750 INFO  - ps7_post_config is completed. 
+13:41:15.859 INFO  - PS Initialization is complete. 
+13:41:45.766 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:41:53.084 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:45:12.219 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: No error in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.235 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.251 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.266 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.283 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.298 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.314 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.330 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.345 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.361 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.376 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.392 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.408 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.423 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.439 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.454 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.470 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.486 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.501 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.517 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.532 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.548 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.564 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:45:12.579 ERROR - Unexpected exception while reading from serial port: {} java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1532)
+
+13:47:29.234 INFO  - Successfully generated D:\xup\embedded\labs\lab4\lab4.sdk\SDK\SDK_Export\lab4\src\lscript.ld. 
+13:47:29.234 INFO  - Applying linker script to all configurations of project lab4. 
+13:47:29.234 INFO  - Setting rebuild state to true for all configurations of project lab4. 
+13:51:31.097 INFO  - Successfully generated D:\xup\embedded\labs\lab4\lab4.sdk\SDK\SDK_Export\lab4\src\lscript.ld. 
+13:51:31.097 INFO  - Applying linker script to all configurations of project lab4. 
+13:51:31.097 INFO  - Setting rebuild state to true for all configurations of project lab4. 
+13:52:13.277 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:52:13.387 INFO  - PS initialization will be done as it is not done before. 
+13:52:13.387 INFO  - Running PS initialization.... 
+13:52:13.730 INFO  - ps7_init is completed. 
+13:52:13.839 INFO  - ps7_post_config is completed. 
+13:52:13.948 INFO  - PS Initialization is complete. 
+13:52:50.687 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+13:53:01.124 ERROR - Port COM6 is already in use. 
+13:53:02.013 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:53:04.011 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0x00110000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(Unknown Source)
+
+13:54:13.089 INFO  - FPGA configured successfully with bitstream "D:/xup/embedded/labs/lab4/lab4.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+13:54:32.933 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:54:33.043 INFO  - PS initialization will be done as it is not done before. 
+13:54:33.043 INFO  - Running PS initialization.... 
+13:54:33.339 INFO  - ps7_init is completed. 
+13:54:33.448 INFO  - ps7_post_config is completed. 
+13:54:33.448 INFO  - PS Initialization is complete. 
+13:56:11.404 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+14:06:45.491 INFO  - Processing command line option -hwspec D:/xup/embedded/labs/lab5/lab5.sdk/SDK/SDK_Export/hw/system.xml. 
+14:07:25.763 INFO  - Restoring local repository preferences: 
+		 D:\xup\embedded\labs\led_ip\led_ip_1.0 
+14:27:57.401 INFO  - FPGA configured successfully with bitstream "D:/xup/embedded/labs/lab5/lab5.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit" 
+14:28:30.364 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:28:30.464 INFO  - PS initialization will be done as it is not done before. 
+14:28:30.464 INFO  - Running PS initialization.... 
+14:28:30.821 INFO  - ps7_init is completed. 
+14:28:30.921 INFO  - ps7_post_config is completed. 
+14:28:31.021 INFO  - PS Initialization is complete. 
+14:28:42.923 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:28:56.857 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:28:59.228 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:32:17.750 INFO  - ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching. 
+14:32:26.728 INFO  - Processor reset is completed for ps7_cortexa9_0 
+14:45:16.171 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  

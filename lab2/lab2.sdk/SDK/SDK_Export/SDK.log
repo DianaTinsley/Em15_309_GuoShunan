@@ -1,0 +1,60 @@
+13:16:37.440 INFO  - Processing command line option -hwspec C:/xup/embedded/labs/lab1/lab1.sdk/SDK/SDK_Export/hw/system.xml. 
+13:23:13.086 INFO  - Processor reset is completed for ps7_cortexa9_0 
+13:23:13.195 INFO  - PS initialization will be done as it is not done before. 
+13:23:13.195 INFO  - Running PS initialization.... 
+13:23:13.507 INFO  - ps7_init is completed. 
+13:23:13.617 INFO  - PS Initialization is complete. 
+13:25:51.725 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
+21:49:13.881 INFO  - Processing command line option -hwspec D:/xup/embedded/labs/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+21:49:13.993 INFO  - The hardware specification for project 'hw_platform_0' is different from D:/xup/embedded/labs/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml. 
+21:49:14.301 INFO  - Copied contents of D:/xup/embedded/labs/lab2/lab2.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml. 
+21:49:14.321 INFO  - Copied contents of D:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system.bit. 
+21:49:14.505 INFO  - Copied contents of D:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c. 
+21:49:14.507 INFO  - Copied contents of D:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h. 
+21:49:14.514 INFO  - Copied contents of D:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html. 
+21:49:14.516 INFO  - Copied contents of D:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_summary.html into \hw_platform_0\ps7_summary.html. 
+21:49:14.518 INFO  - Copied contents of D:\xup\embedded\labs\lab2\lab2.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl. 
+21:49:15.125 INFO  - Synchronizing projects in the workspace with the hardware platform specification changes. 
+21:49:21.129 INFO  - Updating MSS for Board Support Package Project: mem_test_bsp.
+		 The following new driver assignments were made:
+			Peripheral Instance: btns_4bit, driver: gpio_v3_01_a.
+			Peripheral Instance: sw_4bit, driver: gpio_v3_01_a.
+ 
+21:49:22.677 INFO  - Updating hardware inferred compiler options for mem_test. 
+21:49:22.725 INFO  - Clearing existing target manager status. 
+21:49:26.298 INFO  - Closing and re-opening the MSS file of ther project mem_test_bsp 
+21:49:28.565 INFO  - Workspace synchronized with the new hardware specification file. Cleaning dependent projects... 
+21:55:07.062 INFO  - FPGA configured successfully with bitstream "D:/xup/embedded/labs/lab2/lab2.sdk/SDK/SDK_Export/hw_platform_0/system.bit" 
+21:55:53.259 ERROR - Unexpected error while opening JTAG UART:  java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(Unknown Source)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(Unknown Source)
+
+21:55:53.578 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:55:53.678 INFO  - PS initialization will be done as it is not done before. 
+21:55:53.678 INFO  - Running PS initialization.... 
+21:55:53.975 INFO  - ps7_init is completed. 
+21:55:54.075 INFO  - ps7_post_config is completed. 
+21:55:54.175 INFO  - PS Initialization is complete. 
+21:56:30.268 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:56:32.484 ERROR - Port COM6 is already in use. 
+21:56:32.877 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:56:32.977 INFO  - PS initialization will be done as it is not done before. 
+21:56:32.977 INFO  - Running PS initialization.... 
+21:56:33.177 ERROR - Unexpected error while launching program. java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(Unknown Source)
+	at com.xilinx.sdk.targetmanager.internal.TM.runPs7Init(Unknown Source)
+
+21:57:34.990 INFO  - Processor reset is completed for ps7_cortexa9_0 
+21:59:05.016 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:00:10.014 INFO  - Processor reset is completed for ps7_cortexa9_0 
+22:01:32.188 ERROR - Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near  
