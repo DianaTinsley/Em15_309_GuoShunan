@@ -1,0 +1,74 @@
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xutil.h"
+  
+
+#define LED_DELAY     10000000
+
+//====================================================
+
+int main (void) 
+{
+
+    XGpio dip, push,beep,led,outbtn;
+	int i, psb_check, dip_check,outbtn_check;
+	volatile int Delay;
+	int dat = 0x01;
+	
+    xil_printf("-- Start of the Program --\r\n");
+ 
+    XGpio_Initialize(&dip, XPAR_SW_4BIT_DEVICE_ID);
+	XGpio_SetDataDirection(&dip, 1, 0xffffffff);
+	
+	XGpio_Initialize(&push, XPAR_BTN_4BIT_DEVICE_ID);
+	XGpio_SetDataDirection(&push, 1, 0xffffffff);
+	
+	XGpio_Initialize(&led, XPAR_LED_4BIT_DEVICE_ID);
+		XGpio_SetDataDirection(&led, 1, 0x00000000);
+
+		XGpio_Initialize(&outbtn, XPAR_OUTBTN_1BIT_DEVICE_ID);
+			XGpio_SetDataDirection(&outbtn, 1, 0xffffffff);
+
+			XGpio_Initialize(&beep, XPAR_BEEP_1BIT_DEVICE_ID);
+				XGpio_SetDataDirection(&beep, 1, 0x00000000);
+
+
+	while (1)
+	{
+	  psb_check = XGpio_DiscreteRead(&push, 1);
+	  xil_printf("Push Buttons Status %x\r\n", psb_check);
+	  dip_check = XGpio_DiscreteRead(&dip, 1);
+	  xil_printf("DIP Switch Status %x\r\n", dip_check);
+	  
+	  outbtn_check = XGpio_DiscreteRead(&outbtn, 1);
+	  xil_printf("Out Button Status %x\r\n", outbtn_check);
+
+
+	  if (!outbtn_check) {
+	  	              for(i=0;i<4;i++){
+	  	              XGpio_DiscreteWrite(&led, 1 , dat);
+	  	              for (Delay = 0; Delay < LED_DELAY; Delay++);
+	  	              dat = dat <<1;
+	  	            XGpio_DiscreteWrite(&beep, 1,0);
+	  	              }
+	  	              dat = 0x01;
+	  	            XGpio_DiscreteWrite(&beep, 1,1);
+
+	  	          }
+	  else
+		  XGpio_DiscreteWrite(&beep, 1,0);
+
+
+
+	  XGpio_DiscreteWrite(&led, 1,psb_check||dipcheck);
+
+
+
+
+	 	  		XGpio_DiscreteWrite(&led, 1,dip_check);
+
+	  for (i=0; i<9999999; i++); 
+	}
+ 
+}
+ 
